@@ -36,7 +36,7 @@ if ($transactionId === null || $transactionId === '') {
         'usage' => [
             'http://localhost/telebirr_payment/ABC12XYZ99',
             'http://localhost/telebirr_payment/?id=ABC12XYZ99',
-            'POST expected fields: {"settled_amount":135,"to":"Bank of Abyssinia"} with ?verify=1',
+            'POST expected fields: {"settled_amount":500,"to":"Demo Recipient"} with ?verify=1',
         ],
     ]);
 }
